@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url('Login.jpg');
+	background-repeat: no-repeat;
+    background-size: auto;
+}
+form {
+	/*background-color: lightblue;*/
+  border: 4px solid red;
+}
+/* Text Boxes inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#FullLogin{
+	width: 320px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+h3{
+	text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
